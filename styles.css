@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for the body and background */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f0f0f0;
+    color: #ffffff;
+}
+
+#hdr{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+
+#hdnav{
+    display: flex;
+    flex-direction: col;
+    justify-content: center;
+    align-items: center;
+}
+/* Header styles */
+header {
+    background-color: #00000061;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    /* display: flex;
+    height: 150px;
+    width: 100vw; */
+}
+
+header h1 {
+    font-size: 36px;
+    /* width: 100%; */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+/* Main content styles */
+.main-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Chatbot container styles */
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat box styles */
+.chat-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+/* User input and submit button styles */
+#user-input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#submit-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+}
+
+#logoimg{
+    height: 20vh;
+    width: 20vh;
+}
+
+#headhdr{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#lgtextt{
+    display: flex;
+    flex-direction: col;
+    align-items: center;
+    justify-content: center;
+}
+
+#logotext{
+    margin-right: 500px;
+    font-size: 50px;
+}
+
+
+.lawdiv1{
+    /* background-image: url('./sjayte2.jpg'); */
+    height: 150vh;
+    /* background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 20ch; */
+}
+
+#middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#middle2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lawdiv{
+    height: 90vh;
+    background-image: url('./Law-Ministry.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 85ch;
+    background-color: #d2d4d7;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Copyright text styles */
+footer p {
+    font-size: 14px;
+}
+
+.wrapper{
+    min-height: 100vh;
+    display: relative;
+    flex-flow: column;
+}
+
+.law-ministry-icon{
+    display: absolute;
+    height: 100px;
+    width: 100px;
+    left:0;
+    top: 0;
+}
+
+
+nav ul li select {
+    appearance:none;
+    text-decoration: none;
+    color: #fff;
+    background: none;
+    font-weight: bold;
+    font-size: medium;
+    border: 0;
+}
+
+nav ul li select:focus{
+    padding-left: 3px;
+    font-weight:bold;
+    color:grey;
+}
+/* Add this CSS code to your stylesheet */
+
+.link-tab-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px; 
+    
+}
+
+.link-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.link-tab img {
+    max-width: 500px; 
+    max-height: 500px; 
+}
+
+.link-tabs-right1 {
+    margin-top: 10px;
+}
+
+/* Adjust the max-width and max-height values as needed */
+
+
+
+.select-select {
+    background-color: DodgerBlue;
+  }
+  
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /*point the arrow upwards when the select box is open (active):*/
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  .middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .btn{
+    background-color: #5a72798e;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: large;
+  }
+
+  .mid-sec{
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  /*style the items (options), including the selected item:*/
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .animated{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #scroll-button{
+    border-radius: 10px;
+    background-color: #ccc;
+    height: 30px;
+    width: 140px;
+  }
+  
+  /*style items (options):*/
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /*hide the items when the select box is closed:*/
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  } 
+
+/* Chat box styles */
+.chat-box {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    max-width: 100%; /* Adjust the width as needed */
+}
+
+/* Align the chat box to the left */
+.chat-box.left {
+    background-color: #f1f1f1; /* Set the background color for user messages */
+    float: left;
+    clear: both;
+}
+
+/* Align the chat box to the right */
+.chat-box.right {
+    background-color: #007bff; /* Set the background color for LegalGuru messages */
+    color: #fff; /* Set the text color for LegalGuru messages */
+    float: right;
+    clear: both;
+}
+
+
+.wrapper{
+    background-image: url(./wrapper-bg-4.jpg);
+    backdrop-filter: blur(100px);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .main-content1{
+    color: white;
+    /* backdrop-filter: blur(10px) ; */
+  }
+
+  .main-content h2{
+    color: white;
+  }
+  #middle {
+    background-color: rgba(0, 0, 0, 0.433);
+    /* backdrop-filter: blur); */
+  }
+
+  .link-tab-container div div a{
+    appearance: none;
+    color: rgb(233, 183, 49);
+  }
+  footer{
+    background-color: rgba(233, 184, 49, 0.588);
+  }
+
+  .link-tab-container{
+    background-color: rgba(96, 3, 3, 0.267);
+  }
+  .btn a{
+    appearance: none;
+    color: white;
+  } 
+
+  #set {
+    background-image: url("./wrapper-bg-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* backdrop-filter: blur(5px); */
+  }
